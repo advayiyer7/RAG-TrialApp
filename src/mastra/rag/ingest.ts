@@ -7,7 +7,7 @@ import path from "path";
 import pdfParse from "pdf-parse";
 
 interface IngestOptions {
-  pdfDir: string;       // Directory containing PDFs
+  pdfDir: "pdfs";       // Directory containing PDFs
   chunkSize?: number;   // Characters per chunk (default: 1000)
   chunkOverlap?: number; // Overlap between chunks (default: 200)
 }

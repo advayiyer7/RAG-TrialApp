@@ -21,8 +21,8 @@
     "ingest": "bun run scripts/ingest.ts"
   },
   "dependencies": {
-    "@ai-sdk/anthropic": "^1.0.0",
-    "@ai-sdk/openai": "^1.0.0",
+    "@ai-sdk/anthropic": "^3.0.48",
+    "@ai-sdk/openai": "^3.0.36",
     "@mastra/core": "^1.4.0",
     "@mastra/evals": "^1.1.1",
     "@mastra/libsql": "^1.4.0",
